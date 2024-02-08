@@ -1,0 +1,5 @@
+*
+!.gitignore
+!mac/
+!web/
+!win/

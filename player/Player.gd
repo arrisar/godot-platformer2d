@@ -5,13 +5,13 @@ extends CharacterBody2D
 
 const ATTACK_LENGTH: int = 500
 const AIR_ATTACK_MAX: int = 1
-var AIR_ATTACK_COUNT: int = 0
+var   AIR_ATTACK_COUNT: int = 0
 
 const ACCELERATION: int = 2000
 const RUN_SPEED: int = 128
 
-const JUMP_HEIGHT: int = 64
-const JUMP_TIME: float = 1000
+const JUMP_HEIGHT: int = 48
+const JUMP_TIME: float = 800
 const JUMP_TIME_TO_PEAK: float = JUMP_TIME / 2000
 @onready var GRAVITY: float = (2 * JUMP_HEIGHT) / pow(JUMP_TIME_TO_PEAK, 2)
 @onready var JUMP_SPEED: float = GRAVITY * JUMP_TIME_TO_PEAK
