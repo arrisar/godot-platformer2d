@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7mio41pfkc3u"]
+
+[ext_resource type="Script" path="res://ui/Reset.gd" id="1_ee68q"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Reset" type="Button" parent="."]
+offset_left = 8.0
+offset_top = 230.0
+offset_right = 72.0
+offset_bottom = 261.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Reset"
+script = ExtResource("1_ee68q")
